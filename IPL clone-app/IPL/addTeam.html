@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://kit.fontawesome.com/3fd8c12a7a.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="left-side">
+            <div><a href="index.html"><img src="https://www.iplt20.com/assets/images/ipl-logo-new-old.png" alt="IPL Logo"></a></div>
+            </div>
+            <div class="center2">
+                <i id="search-icon" class="fa-solid fa-magnifying-glass" aria-hidden="true">
+                </i>
+                <input id="search-box" type="text" name="search" placeholder="Enter Team Code">
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div id="add-team">
+            <h1 id="team-heading">Add a Team</h1>
+            <form id="addteamform">
+              <p>Team Name</p>
+              <input
+                id="inp1"
+                type="text"
+                name="teamName"
+                placeholder="Enter team name here.."
+                required
+              />
+              <p>Team logo Url</p>
+              <input
+                id="inp3"
+                type="text"
+                name="logoUrl"
+                placeholder="enter logo URL here.."
+                required
+              />
+              <p>Won count</p>
+              <input
+                id="inp4"
+                type="number"
+                name="wonCount"
+                maxlength="1"
+                placeholder="enter won count here.."
+                required
+              />
+      
+              <button type="submit">Add team</button>
+            </form>
+          </div>
+    </main>
+
+    <footer>
+        <div><h4>Cricket Teams © IPL 2023</h4></div>
+      </footer>
+    
+    <script src="https://code.jquery.com/jquery-3.6.4.js" integrity="sha256-a9jBBRygX1Bh5lt8GZjXDzyOB+bWve9EiO7tROUtj/E=" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="addTeam.js"></script>
+</body>
+</html>
